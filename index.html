@@ -38,7 +38,7 @@
     }
     h1{
       margin:0 0 10px;
-      font-size: clamp(34px, 5vw, 56px);
+      font-size: clamp(30px, 5vw, 48px);
       letter-spacing: 0.2px;
     }
     p{
@@ -208,7 +208,7 @@
   const target = valentineTargetSGT();
 
   // ---------- TYPEWRITER ----------
-  function typeText(el, text, speed = 28) {
+  function typeText(el, text, speed = 24) {
     return new Promise(resolve => {
       el.textContent = "";
       const caret = document.createElement("span");
